@@ -1,0 +1,102 @@
+*{
+    overflow:auto;
+}
+
+.phone-icon::before{
+    content: " ";
+    display: inline-block;
+    height: 40px;
+    border-top: 1.1px solid grey;
+}
+
+.img{
+    height: 25px;
+    margin: 0 900px;
+}
+
+.phone-icon::after{
+    content: " ";
+    display: inline-block;
+    height: 40px;
+    border-top: 1.1px solid grey;
+}
+
+.headline{
+    color: black;
+    text-align: center;
+}
+
+/*==========================================*/
+
+.contact-header{
+    display: flex;
+}
+
+.img-check{
+    height: 25px;
+    margin: 0 850px;
+}
+
+.text1{
+    margin: 0 750px;
+}
+
+.mail-icon{
+    height: 25px;
+    margin: 0 -815px;
+}
+
+.text2{
+    margin: 0 -850px; 
+}
+
+.img-icon{
+    height: 30px;
+    margin: 0 -730px;
+}
+
+.text3{
+    margin: 0 -730px;
+}
+
+/*--------------------------*/
+
+.contact-submit{
+    margin: 100px -970px;
+}
+
+.name-field{
+    display: flex;
+    height: 30px;
+}
+.subject-field .massage-field{
+    justify-content: space-between;
+}
+
+.input-name, .input-email{
+    width: auto;
+}
+
+.input-subject{
+    width: 341px;
+    height: 30px;
+}
+
+.input-massage{
+    width: 341px;
+    height: 150px;
+}
+
+/*=======================================*/
+
+footer{
+    background-color: rgb(29, 29, 29);
+}
+
+.img-footer{
+    color: whitesmoke;
+}
+
+.footer_p{
+    color: whitesmoke;
+}
